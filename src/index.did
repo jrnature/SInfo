@@ -1,0 +1,12 @@
+service: () -> {
+    actualizaDependencia: (principal, text, text) -> (variant {Ok:principal; Err:variant {DependenciaNoExiste:principal}});
+    borraDependencia: (principal) -> (variant {Ok:principal; Err:variant {DependenciaNoExiste:principal}});
+    crearDependencia: (text, text) -> (record {idDependencia:principal; usuario:principal; secretaria:text; nombreDependencia:text});
+    crearSolicitud: (text, principal) -> (record {validador:principal; descripcion:text; idDependencia:principal; generador:principal; respuesta:text; mInfoPublica:text; infoPublica:bool; solicitante:principal; idSolicitud:principal});
+    leerDependencia: (principal) -> (opt record {idDependencia:principal; usuario:principal; secretaria:text; nombreDependencia:text}) query;
+    leerDependencias: () -> (vec record {idDependencia:principal; usuario:principal; secretaria:text; nombreDependencia:text}) query;
+    leerSolicitud: (principal) -> (opt record {validador:principal; descripcion:text; idDependencia:principal; generador:principal; respuesta:text; mInfoPublica:text; infoPublica:bool; solicitante:principal; idSolicitud:principal}) query;
+    leerSolicitudes: () -> (vec record {validador:principal; descripcion:text; idDependencia:principal; generador:principal; respuesta:text; mInfoPublica:text; infoPublica:bool; solicitante:principal; idSolicitud:principal}) query;
+    responderSolicitud: (principal, bool, text, text) -> (variant {Ok:principal; Err:variant {SolicitudNoExiste:principal}});
+    validarRespuesta: (principal) -> (variant {Ok:principal; Err:variant {SolicitudNoExiste:principal}});
+}
