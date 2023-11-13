@@ -10,7 +10,7 @@ Clona este repositorio:
 
 Navega al directorio del proyecto:
 
-* cd Ejemplos-Astro
+* cd SInfo
 
 Instala las dependencias:
 
