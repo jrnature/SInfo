@@ -6,7 +6,7 @@ https://www.loom.com/share/a0a11dbe3d5341b88ba04fe17e0cc42f?sid=dfb99bf5-0d5d-4e
 
 Como correr:
 Clona este repositorio:
-* git clone https://github.com/Zona-Tres/Ejemplos-Astro.git
+* git clone https://github.com/jrnature/SInfo.git
 
 Navega al directorio del proyecto:
 ´´´
@@ -31,4 +31,4 @@ URLs:
   Backend canister via Candid interface:
     social: http://127.0.0.1:8000/?canisterId=ryjl3-tyaaa-aaaaa-aaaba-cai&id=rrkah-fqaaa-aaaaa-aaaaq-cai
 
-Puedes hacer click en el link que aparece en tu terminal e interactuar directamente con el canister utilizando la interfaz Candid.
+Puedes hacer click en el link que aparece en tu terminal e interactuar directamente con el canister utilizando la interfaz Candid
