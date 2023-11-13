@@ -9,21 +9,21 @@ Clona este repositorio:
 * git clone https://github.com/jrnature/SInfo.git
 
 Navega al directorio del proyecto:
-´´´
-cd Ejemplos-Astro
-´´´
+
+* cd Ejemplos-Astro
+
 Instala las dependencias:
-´´´
-npm install
-´´´
+
+* npm install
+
 Crea una replica en tu máquina:
-´´´
-dfx start --background --clean
-´´´
+
+* dfx start --background --clean
+
 Despliega el canister a tu replica:
-´´´
-dfx deploy
-´´´
+
+* dfx deploy
+
 De aquí verás algo como lo siguiente:
 
 Deployed canisters.
